@@ -7,10 +7,12 @@ A dbt project following the star schema model using postgresql as database.
 ### /models
 Contains all models for the dbt project. 
 
-Currently there are three type of models:
-* stg: Staging models that interacts with CSV. 
+Currently there are five type of models:
+* stg: Staging models that interacts with CSV.
 * dim: Dimension models 
 * fct: Fact models
+* trn: Generic transformations 
+* anl: Analytics on customer behaviour, product performance, sales trends e.g.
 
 ### /seeds
 Contains the csv files that are used in the project
