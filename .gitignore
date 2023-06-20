@@ -1,5 +1,8 @@
 
 dbt-env/
 logs/
+target/
+dbt_packages/
+
 customer_raw.csv
 data/

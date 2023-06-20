@@ -14,19 +14,7 @@ profile: 'omega'
 # found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models/dimensions", "models/facts", "models/staging"]
 test-paths: ["tests"]
-
-seeds:
-  omega:
-    sales_raw:
-    customer_raw:
-    product_raw:
-      column_types:
-        ProductID: integer
-        Category: varchar(1)
-        Price: numeric
-        CreatedAt: timestamp
-    location_raw:
-    store_raw:
+seed-paths: ["seeds"]
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
