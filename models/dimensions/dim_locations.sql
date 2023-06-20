@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 
 SELECT
-    md5(stg_locations.location_id::text || stg_locations.ingestion_date::text) as location_sk,
+    md5(stg_locations.store_id::text || stg_locations.ingestion_date::text) as location_sk,
     stg_locations.location_id,
     stg_locations.store_id,
     stg_stores.store_name,

@@ -23,7 +23,7 @@ Contains the singular tests for specific busniess requirments
 ## Project setup:
 - Install postgres sql 
 - Install dbt-postgres
-    - Create a python virtual enviorment
+    - Create a python virtual enviroment for the project
     - For MAC: Set the postgres bin path so psycopg2 knows what pg_config to use.
     - % PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH" pip install dbt-postgres
 - run dbt init 

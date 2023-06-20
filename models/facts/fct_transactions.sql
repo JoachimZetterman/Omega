@@ -4,7 +4,7 @@ SELECT
     md5(transaction_id::text || ingestion_date::text) as transaction_sk,
     md5(customer_id::text || ingestion_date::text) as customer_sk,
     md5(product_id::text || ingestion_date::text) as product_sk,
-    md5(store_id::text || ingestion_date::text) as store_sk,
+    md5(store_id::text || ingestion_date::text) as location_sk,
     transaction_id,
     date,
     amount,
