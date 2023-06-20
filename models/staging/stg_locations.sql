@@ -7,5 +7,6 @@ SELECT
     "State" AS state,
     "Country" AS country,
     "Latitude" AS latitude,
-    "Longitude" AS longitude
+    "Longitude" AS longitude,
+    CURRENT_DATE as ingestion_date
 FROM {{ ref('location_raw') }} 
