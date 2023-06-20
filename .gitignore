@@ -1,0 +1,5 @@
+
+dbt-env/
+logs/
+customer_raw.csv
+data/

@@ -1,0 +1,9 @@
+LocationID,StoreID,City,State,Country,Latitude,Longitude
+1,1,Stockholm,Stockholm,Sweden,59.3293,18.0686
+2,2,Gothenburg,Västra Götaland,Sweden,57.7089,11.9746
+3,3,Malmö,Skåne,Sweden,55.6049,13.0038
+4,4,Uppsala,Uppsala,Sweden,59.8586,17.6389
+5,1,Västerås,Västmanland,Sweden,59.6099,16.5448
+6,2,Örebro,Örebro,Sweden,59.2741,15.2066
+7,3,Linköping,Västergötland,Sweden,58.4109,15.6214
+8,4,Helsingborg,Skåne,Sweden,56.0467,12.6944

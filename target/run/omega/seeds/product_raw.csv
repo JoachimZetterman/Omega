@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "jzehqz"."dbt_jzehqz"."product_raw" ("ProductID" integer,"Category" text,"Price" integer,"CreatedAt" timestamp without time zone)
+  ;
+    -- dbt seed --
+    
+          insert into "jzehqz"."dbt_jzehqz"."product_raw" ("ProductID", "Category", "Price", "CreatedAt") values
+          (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
+      
+
+;
+  
